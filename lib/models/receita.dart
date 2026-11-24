@@ -9,7 +9,6 @@ class Receita {
     this.quantidadeIngredientes = 0,
   });
 
-  // Aceita tanto { id, nome } quanto { id, nome, ingredientes: [{count: 3}] }
   factory Receita.fromMap(Map<String, dynamic> map) {
     var contagem = 0;
     final ing = map['ingredientes'];
