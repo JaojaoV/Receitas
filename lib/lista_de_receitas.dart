@@ -171,7 +171,6 @@ class _ListaDeReceitasState extends State<ListaDeReceitas> {
                                         ListaDeIngredientes(receita: receita),
                                   ),
                                 );
-                                // Recarrega para atualizar a contagem.
                                 _carregar();
                               },
                             );
